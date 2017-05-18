@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://www.freewebheaders.com/wordpress/wp-content/gallery/other-backgrounds/purple-lonely-chair-website-header-design.jpg">') no-repeat center center scroll;
+    background-image: url('http://www.freewebheaders.com/wordpress/wp-content/gallery/other-backgrounds/purple-lonely-chair-website-header-design.jpg">') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -45,12 +45,12 @@ body {
 
 .featurette-image.pull-left {
     margin-right: 40px;
-    width: 300px;
+    width: 120px;
 }
 
 .featurette-image.pull-right {
     margin-left: 40px;
-    width: 300px;
+    width: 120px;
 }
 
 .featurette-heading {
