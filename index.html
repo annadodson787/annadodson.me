@@ -28,6 +28,30 @@
         var shiftWindow = function() { scrollBy(0, -50) };
         window.addEventListener("hashchange", shiftWindow);
     </script>
+    
+    
+    <style>
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 120px;
+    }
+        
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+         padding: 15px;
+        text-align: center;
+    }
+    </style>
 
 </head>
 
@@ -120,8 +144,26 @@
                 <span class="text-muted">My Art, Writing and Design</span>
             </h2>
             <p class="lead">
-                I dabble in art. Check out some of my works below:
+                I dabble in art. Check out some of my works below:             
             </p>
+            <div class="gallery">
+                <a target="_blank" href="20170312_141458.jpg">
+                <img src="20170312_141458.jpg" alt="Trolltunga Norway" width="300" height="200">
+                 </a>
+                 <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="20170312_141458.jpg">
+                <img src="20170312_141458.jpg" alt="Trolltunga Norway" width="300" height="200">
+                 </a>
+                 <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="20170312_141458.jpg">
+                <img src="20170312_141458.jpg" alt="Trolltunga Norway" width="300" height="200">
+                 </a>
+                 <div class="desc">Add a description of the image here</div>
+            </div>            
         </div>
 
         <hr class="featurette-divider">
