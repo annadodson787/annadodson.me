@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background-image: url('http://www.freewebheaders.com/wordpress/wp-content/gallery/other-backgrounds/purple-lonely-chair-website-header-design.jpg">') no-repeat center center scroll;
+    background: url("20160527_203747.jpg") 100% 100% no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
